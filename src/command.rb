@@ -1,4 +1,4 @@
-#
+# this class control the rover commands
 class Command
   def initialize(rover)
     @rover = rover
