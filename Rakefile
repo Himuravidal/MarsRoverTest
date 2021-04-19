@@ -7,5 +7,5 @@ end
 
 desc 'Run all test'
 task :test do
-
+  sh 'rspec spec/ -fd'
 end
