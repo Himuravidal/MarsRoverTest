@@ -34,6 +34,7 @@ module Coordinates
     end
   end
 
+  # class East add + 1 to axis X if theres move.
   class East
     def rotate_left
       NORTH
@@ -54,6 +55,7 @@ module Coordinates
     end
   end
 
+  # class West - 1 to axis X if theres move.
   class West
     def rotate_left
       SOUTH
@@ -74,6 +76,7 @@ module Coordinates
     end
   end
 
+  # class South - 1 to axis y if theres move.
   class South
     def rotate_left
       EAST

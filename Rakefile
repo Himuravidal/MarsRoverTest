@@ -2,7 +2,7 @@ task default: [:execute, :test]
 
 desc 'Execute mars rover program with the data from input.txt file'
 task :execute do
-  sh 'ruby scr/mars-init.rb input.txt'
+  sh 'ruby src/mars_init.rb input.txt'
 end
 
 desc 'Run all test'
